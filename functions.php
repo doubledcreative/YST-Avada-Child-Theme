@@ -159,3 +159,5 @@ function last_mod_header($headers) {
                 }
         }
 }
+
+add_filter( 'gform_confirmation_anchor', '__return_true' );
